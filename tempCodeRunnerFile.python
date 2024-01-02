@@ -1,0 +1,13 @@
+# Function to create a list of tuples with number and its cube
+def create_tuples_with_cubes(input_list):
+    tuples_list = [(num, num ** 3) for num in input_list]
+    return tuples_list
+
+# Given input list
+c = [2, 3, 4, 5, 6, 7, 8, 9]
+
+# Create list of tuples with number and its cube
+result_list = create_tuples_with_cubes(c)
+
+# Display the result
+print("List of tuples with number and its cube:", result_list)
